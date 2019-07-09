@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login Test(failed)">
+    <classes>
+      <class name="com.ecoos.selenium.tests.LoginTest">
+        <methods>
+          <include name="ValidLogin">
+            <parameter name="UserName" value="admin@ecoos.co"/>
+            <parameter name="Password" value="ecoos6"/>
+          </include> <!-- ValidLogin -->
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.ecoos.selenium.tests.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Test suite] -->
