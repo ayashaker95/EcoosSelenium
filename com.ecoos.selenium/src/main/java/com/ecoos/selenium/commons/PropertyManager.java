@@ -42,6 +42,7 @@ public class PropertyManager {
 		chromedriverPath = prop.getProperty("chromedriverPath");
 		geckodriverPath = prop.getProperty("geckodriverPath");
 	}
+	
 
 	public String getURL() {
 		return url;

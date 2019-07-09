@@ -17,6 +17,7 @@ public class LoginPage extends BasePage {
 		driver.findElement(com.ecoos.selenium.commons.Locators.Password).clear();
 	}
 
+	
 	public void loginToSite(String UserName, String Password) {
 
 		try {

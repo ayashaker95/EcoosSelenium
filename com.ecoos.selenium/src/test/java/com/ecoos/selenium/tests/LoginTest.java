@@ -22,6 +22,7 @@ public class LoginTest extends BaseTest{
 			Assert.assertTrue(true);
 	}
 
+	
 	@Test
 	@Parameters({ "UserName", "Password" })
 	public void InvalidPassword(String UserName, String Password) {

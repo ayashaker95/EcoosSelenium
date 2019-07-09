@@ -17,6 +17,7 @@ public class BasePage {
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(Path)));
 		driver.findElement(Path).click();
 	}
+	
 
 	public void sendText(By Path, String dataInput) {
 		driver.findElement(Path).sendKeys(dataInput);

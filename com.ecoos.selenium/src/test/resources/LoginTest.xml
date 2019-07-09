@@ -18,6 +18,7 @@
 						<parameter name="Password" value="ecoos6" />
 					</include>
 				</methods>
+				
 			</class>
 		</classes>
 	</test>
