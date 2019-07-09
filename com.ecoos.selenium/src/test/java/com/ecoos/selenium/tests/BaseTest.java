@@ -36,6 +36,8 @@ public class BaseTest {
 				System.setProperty("webdriver.gecko.driver",geckoDriverPath );
 				driver = new FirefoxDriver();
 			} else {
+				
+				
 				System.out.println("Error in the browser name ");
 			}
 			driver.manage().window().maximize();
