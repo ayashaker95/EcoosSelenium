@@ -21,6 +21,8 @@ public class BaseTest {
 	@BeforeSuite
 	public void beforeSuite() {
 
+		
+		
 		try {
 			
 		    String url = PropertyManager.getInstance().getURL();
