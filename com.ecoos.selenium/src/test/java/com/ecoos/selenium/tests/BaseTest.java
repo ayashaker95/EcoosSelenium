@@ -14,14 +14,13 @@ import com.ecoos.selenium.pages.BasePage;
 import com.ecoos.selenium.commons.Locators;
 import com.ecoos.selenium.commons.Constans;
 
+
 public class BaseTest {
 	public static WebDriver driver;
 	public String UserName , Password;
 
 	@BeforeSuite
 	public void beforeSuite() {
-
-		
 		
 		try {
 			
